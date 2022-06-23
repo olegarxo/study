@@ -1,5 +1,35 @@
 ﻿
+Console.WriteLine("Введите число недели");
+int numbers = Convert.ToInt32(Console.ReadLine());
 
+if (numbers == 1)
+{
+Console.WriteLine($"Вы ввели понедельник");
+}
+if (numbers == 2)
+{
+Console.WriteLine($"Вы ввели вторник");
+}
+if (numbers == 3)
+{
+Console.WriteLine($"Вы ввели Среду");
+}
+if (numbers == 4)
+{
+Console.WriteLine($"Вы ввели четверг");
+}
+if (numbers == 5)
+{
+Console.WriteLine($"Вы ввели пятницу");
+}
+if (numbers == 6)
+{
+Console.WriteLine($"Вы ввели субботу");
+}
+if (numbers == 7)
+{
+Console.WriteLine($"Вы ввели воскресенье");
+}
 
 /*Console.WriteLine("Введите первое число");
 int fitht = Convert.ToInt32(Console.ReadLine());
